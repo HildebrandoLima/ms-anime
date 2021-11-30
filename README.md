@@ -3,7 +3,7 @@ Criação de uma simples API com NodeJS. Nela abordo um serviço de dados de um 
 <hr />
 <b>Criar Arquivo Package:</b>
 
-<li>init - <b>ver mais em:</b> [npm init](https://docs.npmjs.com/cli/v8/commands/npm-init)</li>
+<li>init - <b>ver mais em:</b> (https://docs.npmjs.com/cli/v8/commands/npm-init)</li>
 
 <br />
 
