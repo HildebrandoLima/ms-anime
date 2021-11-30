@@ -1,11 +1,26 @@
-criar arquivo package
-npm init
+Criação de uma simples API com NodeJS. Nela abordo um serviço de dados de um anime que sou fã.
 
-//Gerenciar as requisições, rotas e URLs, entre outras funcionalidades
-npm install express
+<hr />
+<b>Criar Arquivo Package:</b>
 
-//Instalar o módulo para reiniciar o servidor sempre que houver alteração no código fonte
-npm install -D nodemon
+<li>init - ver mais em: [npm init](https://docs.npmjs.com/cli/v8/commands/npm-init)</li>
 
-//Liberar acesso da API: cors
-npm install express cors axios
+<br />
+
+<b>Gerenciar as requisições, rotas e URLs, entre outras funcionalidades:</b>
+
+<li>[npm install express](https://www.npmjs.com/package/express)</li>
+
+<br />
+
+<b>Módulo para reiniciar o servidor sempre que houver alteração no código fonte:</b>
+
+<li>[npm install -d nodemon](https://www.npmjs.com/package/nodemon)</li>
+
+<br />
+
+<b>Liberar Acesso da API</b>
+
+<li>[npm install express cors axios](https://www.npmjs.com/package/cors)</li>
+
+<br />
