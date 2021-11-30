@@ -3,13 +3,13 @@ Criação de uma simples API com NodeJS. Nela abordo um serviço de dados de um 
 <hr />
 <b>Criar Arquivo Package:</b>
 
-<li>init - <b>ver mais em:</b> (https://docs.npmjs.com/cli/v8/commands/npm-init)</li>
+<li>init - <b>ver mais em:</b> [init](https://docs.npmjs.com/cli/v8/commands/npm-init)</li>
 
 <br />
 
 <b>Gerenciar as requisições, rotas e URLs, entre outras funcionalidades:</b>
 
-<li>express - <b>ver mais em:</b> [npm install express](https://www.npmjs.com/package/express)</li>
+<li>express - <b>ver mais em:</b> [express](https://www.npmjs.com/package/express)</li>
 
 <br />
 
