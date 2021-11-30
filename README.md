@@ -1,6 +1,12 @@
-Criação de uma simples API com NodeJS. Nela abordo um serviço de dados de um anime que sou fã.
+##Criação de uma simples API com NodeJS. Nela abordo um serviço de dados de um anime que sou fã.
 
 <hr />
+
+<b>Tecnoogia:</b>
+<li>NodeJS</li>
+
+<br />
+
 <b>Criar Arquivo Package:</b>
 
 <li>init - <b>ver mais em:</b> (https://docs.npmjs.com/cli/v8/commands/npm-init)</li>
