@@ -1,4 +1,6 @@
-## Criação de uma API com NodeJS. Nela abordo um simples serviço que exibe os dados dos personagens de Demon Slayer.
+## Criação de uma API com NodeJS.
+
+#Nela abordo um simples serviço que exibe os dados dos personagens de Demon Slayer.
 
 <hr />
 
