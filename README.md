@@ -1,6 +1,6 @@
 ## Criação de uma API com NodeJS.
 
-### Nela abordo um simples serviço que exibe os dados dos personagens de Demon Slayer. Tais como: nome, imagem, descricao, poderes/habilidades, tecnica_respiracao.
+<b>Nela abordo um simples serviço que exibe os dados dos personagens de Demon Slayer. Tais como: nome, imagem, descricao, poderes/habilidades, tecnica_respiracao.</b>
 
 <hr />
 
