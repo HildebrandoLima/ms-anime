@@ -16,7 +16,7 @@ Nela abordo um simples serviço que exibe os dados dos personagens de Demon Slay
 <li>Crie arquivo package: init - [https://docs.npmjs.com/cli/v8/commands/npm-init]</li>
 <li>Instale o framework express - [https://www.npmjs.com/package/express]</li>
 <li>Liberar acesso da api com cors - [https://www.npmjs.com/package/cors]</li>
-<li>Módulo para reiniciar o servidor: nodemon - <b>ver mais em:</b> [https://www.npmjs.com/package/nodemon]</li>
+<li>Módulo para reiniciar o servidor: nodemon - [https://www.npmjs.com/package/nodemon]</li>
 
 ## Docker
 
