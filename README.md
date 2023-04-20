@@ -6,8 +6,6 @@ Nela abordo um simples serviço que exibe os dados dos personagens de Demon Slay
 
 ### Verbo HTTP: GET
 
-<br />
-
 ### Requisitos:
 
 <li>Ter o node instalado em sua máquina.</li> 
