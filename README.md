@@ -1,40 +1,32 @@
-## Criação de uma API com NodeJS.
+## Criação de API com NodeJS.
 
-<b>Nela abordo um simples serviço que exibe os dados dos personagens de Demon Slayer. Tais como: nome, imagem, descricao, poderes/habilidades, tecnica_respiracao.</b>
+Nela abordo um simples serviço que exibe os dados dos personagens de Demon Slayer. Tais como: nome, imagem, descricao, habilidades, técnica de respiração e arte demoníaca.</b>
 
 <hr />
 
-<b>Por ser apenas uma listagem única. O verbo HTTP escolhido é o GET<b>
-
-<b>Tecnoogia:</b>
-<li>NodeJS</li>
+### Verbo HTTP: GET
 
 <br />
 
-<b>Clone o Projeto</b>
+### Requisitos:
 
-<li>git@github.com:HildebrandoLima/Criando-API.git</li>
+<li>Ter o node instalado em sua máquina.</li> 
 
-<br />
+### Passos:
 
-<b>Criar Arquivo Package:</b>
+<li>Clone o Projeto: git@github.com:HildebrandoLima/Criando-API.git</li>
+<li>Crie arquivo package: init - [https://docs.npmjs.com/cli/v8/commands/npm-init]</li>
+<li>Instale o framework express - [https://www.npmjs.com/package/express]</li>
+<li>Liberar acesso da api com cors - [https://www.npmjs.com/package/cors]</li>
+<li>Módulo para reiniciar o servidor: nodemon - <b>ver mais em:</b> [https://www.npmjs.com/package/nodemon]</li>
 
-<li>init - <b>ver mais em:</b> [https://docs.npmjs.com/cli/v8/commands/npm-init]</li>
+## Dockerfile
 
-<br />
+Outra opção sem precisar usar os passos acima, é executando seu projeto com Docker.
 
-<b>Instale Framework:</b>
-
-<li>express - <b>ver mais em:</b> [https://www.npmjs.com/package/express]</li>
-
-<br />
-
-<b>Módulo para reiniciar o servidor:</b>
-
-<li>nodemon - <b>ver mais em:</b> [https://www.npmjs.com/package/nodemon]</li>
-
-<br />
-
-<b>Liberar Acesso da API</b>
-
-<li>cors - <b>ver mais em:</b> [https://www.npmjs.com/package/cors]</li>
+## Requisitos:
+<li>Tenha o docker instalado em sua máquina.</li>
+<li>Execute o comando: ´docker-compose up´</li>
+<li>Veja a porta liberada: ´docker ps´</li>
+<li>Encerre clicando: ´Ctrl + c´</li>
+<li>Veja mais em: [https://docs.docker.com/get-started/overview/]</li>
