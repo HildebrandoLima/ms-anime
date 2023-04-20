@@ -18,7 +18,7 @@ Nela abordo um simples serviço que exibe os dados dos personagens de Demon Slay
 <li>Liberar acesso da api com cors - [https://www.npmjs.com/package/cors]</li>
 <li>Módulo para reiniciar o servidor: nodemon - <b>ver mais em:</b> [https://www.npmjs.com/package/nodemon]</li>
 
-## Dockerfile
+## Docker
 
 Outra opção sem precisar usar os passos acima, é executando seu projeto com Docker.
 
