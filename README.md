@@ -5,6 +5,7 @@ Nela abordo um simples serviço que exibe os dados dos personagens de Demon Slay
 <hr />
 
 | Método |       Rota        |
+|--------|-------------------|
 |   GET  | /api/demon-slayer |
 
 ### Requisitos:
