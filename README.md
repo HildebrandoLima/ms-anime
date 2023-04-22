@@ -4,7 +4,8 @@ Nela abordo um simples serviço que exibe os dados dos personagens de Demon Slay
 
 <hr />
 
-### Verbo HTTP: GET
+| Método |       Rota        |
+|   GET  | /api/demon-slayer |
 
 ### Requisitos:
 
@@ -24,6 +25,7 @@ Outra opção sem precisar usar os passos acima, é executando seu projeto com D
 
 ## Requisitos:
 <li>Tenha o docker instalado em sua máquina.</li>
+<li>Tenha o docker-compose instalado em sua máquina.</li>
 <li>Execute o comando: ´docker-compose up´</li>
 <li>Veja a porta liberada: ´docker ps´</li>
 <li>Encerre clicando: ´Ctrl + c´</li>
