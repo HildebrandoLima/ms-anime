@@ -9,35 +9,32 @@ app.use(express.json());
 
 app.get("/api/demon-slayer", (req, res) => {
     fs.writeFile("anime.json", JSON.stringify(file), error => {
+
         if (error) throw 'Error: ' + error;
-        return res.json(file);
+
+        return res.status(200).json({
+            message: "Listagem de personagens encontrada com sucesso.",
+            data: file,
+            datails: "",
+            staus: 200
+        });
     });
 });
 
 app.get("/api/demon-slayer/:nome", (req, res) => {
     fs.writeFile("anime.json", JSON.stringify(file), error => {
         if (error) throw 'Error: ' + error;
-        file.protagonistas.forEach(element => {
-            if (element.nome == req.params.nome) {
-                return res.json(element);
-            }
-        });
 
-        file.hashiras.forEach(element => {
-            if (element.nome == req.params.nome) {
-                return res.json(element);
-            }
-        });
+        const arrayPersonagens = file.protagonistas.concat(file.hashiras).concat(file.onis).concat(file.coadjuvantes);
 
-        file.onis.forEach(element => {
+        arrayPersonagens.forEach(element => {
             if (element.nome == req.params.nome) {
-                return res.json(element);
-            }
-        });
-
-        file.coadjuvantes.forEach(element => {
-            if (element.nome == req.params.nome) {
-                return res.json(element);
+                return res.status(200).json({
+                    message: "Listagem de personagem encontrada com sucesso.",
+                    data: element,
+                    datails: "",
+                    staus: 200
+                });
             }
         });
     });
