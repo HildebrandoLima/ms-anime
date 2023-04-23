@@ -10,7 +10,36 @@ app.use(express.json());
 app.get("/api/demon-slayer", (req, res) => {
     fs.writeFile("anime.json", JSON.stringify(file), error => {
         if (error) throw 'Error: ' + error;
-        res.json(file);
+        return res.json(file);
+    });
+});
+
+app.get("/api/demon-slayer/:nome", (req, res) => {
+    fs.writeFile("anime.json", JSON.stringify(file), error => {
+        if (error) throw 'Error: ' + error;
+        file.protagonistas.forEach(element => {
+            if (element.nome == req.params.nome) {
+                return res.json(element);
+            }
+        });
+
+        file.hashiras.forEach(element => {
+            if (element.nome == req.params.nome) {
+                return res.json(element);
+            }
+        });
+
+        file.onis.forEach(element => {
+            if (element.nome == req.params.nome) {
+                return res.json(element);
+            }
+        });
+
+        file.coadjuvantes.forEach(element => {
+            if (element.nome == req.params.nome) {
+                return res.json(element);
+            }
+        });
     });
 });
 
