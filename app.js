@@ -6,11 +6,16 @@ const routes = require('./src/routes/routes');
 const app = express();
 const port = 3000;
 
-configureApp(app);
+try {
+    configureApp(app);
 
-app.use('/api', routes);
+    app.use('/api', routes);
 
-handler(app);
+    handler(app, 40, '');
+
+} catch (error) {
+    handler(app, 500, error);
+}
 
 app.listen(port, () => {
     console.log(`Servidor Rodando... http://localhost:${port}`);

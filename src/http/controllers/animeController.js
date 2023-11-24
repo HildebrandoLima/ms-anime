@@ -1,40 +1,21 @@
 const service = require('../../domains/services/animeService');
+const baseResponse = require('../response/baseResponse');
 
 const getAllAnime = (request, response) => {
     const ok = service.getAll();
     if (ok.length === 0) {
-        return response.status(404).json({
-            message: 'Registro não enconrado.',
-            data: [],
-            details: "",
-            status: 404,
-        });
+        return baseResponse.httpBadRequest('Persongem não encontrado', request, response);
     } else {
-        return response.status(200).json({
-            message: 'Listagem realizada com sucesso.',
-            data: ok,
-            details: "",
-            status: 200,
-        });
+        return baseResponse.httpOK(ok, request, response);
     }
 };
 
 const getAnimeName = (request, response) => {
     const ok = service.getOne(request.params.name);
     if (ok.length === 0) {
-        return response.status(404).json({
-            message: 'Registro não enconrado.',
-            data: [],
-            details: "",
-            status: 404,
-        });
+        return baseResponse.httpBadRequest('Persongem não encontrado', request, response);
     } else {
-        return response.status(200).json({
-            message: 'Listagem realizada com sucesso.',
-            data: ok,
-            details: "",
-            status: 200,
-        });
+        return baseResponse.httpOK(ok, request, response);
     }
 };
 
