@@ -30,7 +30,7 @@ Outra opção sem precisar usar os passos acima, é executar o projeto com Docke
 ## Requisitos:
 <li>Tenha o docker instalado em sua máquina.</li>
 <li>Tenha o docker-compose instalado em sua máquina.</li>
-<li>Execute o comando: ´sudo docker-compose up´</li>
-<li>Veja o host liberado: ´sudo docker-compose ps´</li>
-<li>Encerre aplicação: ´sudo docker-compose down´</li>
+<li>Execute o comando para, iniciar aplicação: ´sudo docker-compose up´</li>
+<li>Execute o comando para, vê o status da aplicação: ´sudo docker-compose ps´</li>
+<li>Execute o comando para, encerrar aplicação: ´sudo docker-compose down´</li>
 <li>Veja mais em: [https://docs.docker.com/get-started/overview/]</li>
