@@ -2,6 +2,8 @@
 
 Nela abordo um simples serviço que exibe os dados dos personagens de Demon Slayer. Tais como: nome, imagem, descricao, habilidades, técnica de respiração e arte demoníaca.</b>
 
+Host em produção: https://api-demon-slayer-9ut6.onrender.com
+
 <hr />
 
 | Método |          Rota           |
