@@ -1,0 +1,16 @@
+name: Deploy Homolog
+
+on:
+  push:
+    branches: [homolog]
+
+jobs:
+  name: Deploy Homolog
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: Deploy to Homolog
+      uses: johnbeynon/render-deploy-action@v0.0.8
+      with:
+      service-id: ${{ secrets.SERVICE_ID }}
+      api-key: ${{ secrets.RENDER_API_KEY }}
