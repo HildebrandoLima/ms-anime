@@ -11,7 +11,7 @@ try {
 
     app.use('/api', routes);
 
-    handler(app, 40, '');
+    handler(app, 404, '');
 
 } catch (error) {
     handler(app, 500, error);
