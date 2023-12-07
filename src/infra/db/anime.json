@@ -52,7 +52,7 @@
                 "nome": "Mitsuri Kanroji",
                 "imagem": "https://criticalhits.com.br/wp-content/uploads/2021/07/20210302-cosplay-de-mitsuri-kanroji-1200x675-1.jpg",
                 "descricao": "Mitsuki Kanroji é a Hashira da Respiração do Amor. Ela consegue ver o melhor em cada um e se apaixona por todos. Demonstrações de amor a deixam toda derretidinha. O jeito mais fácil de defini-la é com a canção “Amor de Que”, da Pabllo Vittar. Seus ataques são como um chicote.",
-                "poderesabilidades": "",
+                "habilidades": "",
                 "respiracao": "Respiração do Amor"
             },
             {
@@ -73,8 +73,8 @@
                 "nome": "Gyomei Himejima",
                 "imagem": "https://i.pinimg.com/originals/26/d1/83/26d1830c3cbcee8aaffdb1c4eb37694c.png",
                 "descricao": "É o Hashira de Respiração da Pedra. Ele segue os ensinamentos budistas e está sempre chorando pela humanidade. Fala com paciência, compaixão e pena por todos, apesar de julgá-los um pouco. Foi o mentor de Shinazugawa e, em combate, luta usando um machado preso a uma maça por uma corrente.",
-                "podereshabilidades": "",
-                "tecnicarespiracao": "Respiração da Pedra"
+                "habilidades": "",
+                "respiracao": "Respiração da Pedra"
             },
             {
                 "nome": "Obanai Iguro",
@@ -183,32 +183,39 @@
                 "imagem": "https://i.pinimg.com/originals/c7/ab/8d/c7ab8dcfd618862eaaeacc60067c8bee.png",
                 "descricao": "Kagaya Ubuyashiki é o Líder da Corporação de Caçadores de Oni, mais conhecido por seus subordinados como Mestre. Não demonstra suas habilidades de luta, mas mesmo assim é reverenciado por todos os Hashira. Seu tom de voz sereno é capaz de acalmar qualquer um em sua presença. Tem um senso de justiça mais aguçado que o resto da Corporação.",
                 "habilidades": "",
-                "respiracao": ""
+                "respiracao": "",
+                "arteDemoniaca": ""
             },
             {
                 "nome": "Kanao Tsuyuri",
                 "imagem": "https://i.pinimg.com/originals/46/6e/1e/466e1e4aa6249fbd640244e3da41e074.png",
                 "descricao": "É a Tsuguko, a futura Hashira da Respiração das Flores. Ela teve um passado bem abusivo e por isso reprime ao máximo suas emoções. Também não confia em suas próprias escolhas e usa uma moeda quando precisa tomar uma decisão. Acaba se aproximando de Tanjiro com o passar do tempo.",
                 "habilidades": "",
-                "respiracao": "Respiração das Flores"
+                "respiracao": "Respiração das Flores",
+                "arteDemoniaca": ""
             },
             {
                 "nome": "Sakonji Urokodaki",
                 "imagem": "https://www.giantbomb.com/a/uploads/square_small/16/165036/3284898-sakonji.png",
                 "descricao": "Sakonji Urokodaki é o ex-hashira da Respiração da Água. Ele é um homem de meia-idade, de coração mole, que sempre esconde o rosto por debaixo de uma máscara de Tengu. Ensina para crianças tudo que pode sobre a Respiração na esperança que sobrevivam ao Exame de Caçador de Onis. Entre seus alunos mais notáveis, temos Tanjiro e Giyu.",
                 "habilidades": "",
-                "tecnicaEespiracao": "Respiração da Água"
+                "respiracao": "Respiração da Água",
+                "arteDemoniaca": ""
             },
             {
                 "nome": "Tamayo",
                 "imagem": "https://i.pinimg.com/originals/0d/17/74/0d17742b7e6788c228a2fface9de9e8b.png",
                 "descricao": "Tamayo é uma oni curandeira que Tanjiro encontra na mesma cidade em que vê Muzan Kibutsuji. Por sua natureza pacifista, se recusa a matar humanos para sobreviver e adota uma dieta de sangue descartado. Cuida da Nezuko quando ela precisa e prometeu achar um jeito de curá-la, se o Tanjiro trouxer o sangue de Lua Maiores.",
+                "habilidades": "",
+                "respiracao": "",
                 "arteDemoniaca": "Kekeijutsu"
             },
             {
                 "nome": "Yushiro",
                 "imagem": "https://i.pinimg.com/474x/60/b2/3a/60b23a6247c60a0481ca5e6cbfa0aabe.jpg",
                 "descricao": "Yushiro é um oni que foi salvo por Tamayo em seu leito de morte. Desde então, ele fez de seu objetivo de vida servir a oni até a morte. Ele é o principal protetor da médica, ocultando sua presença de todo o mal e combatendo possíveis invasores. Não esconde sua devoção e ataca qualquer um que atente contra sua honra.",
+                "habilidades": "",
+                "respiracao": "",
                 "arteDemoniaca": "Kekeijutsu"
             },
             {
@@ -216,7 +223,8 @@
                 "imagem": "https://psxbrasil.com.br/wp-content/uploads/2021/05/Demon-Slayer-Game-Murata_05-27-21.jpg",
                 "descricao": "Murata tem uma soberba incompatível com a sua habilidade mediana. Ele é um Caçador de Demônios que sobreviveu ao ataque de um perigoso Kizuki, mas isso por ter fugido quando seus aliados foram controlados. Aparece esporadicamente nos arcos futuros e é um usuário da Respiração de Água.",
                 "habilidades": "",
-                "respiracao": "Respiração de Água"
+                "respiracao": "Respiração de Água",
+                "arteDemoniaca": ""
             }
         ]
     }

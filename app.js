@@ -8,15 +8,14 @@ const port = 3000;
 
 try {
     configureApp(app);
-
     app.use('/api', routes);
-
-    handler(app, 40, '');
-
+    handler(app, 404, '');
 } catch (error) {
-    handler(app, 500, error);
+    handler(app, 500, error.message);
 }
 
 app.listen(port, () => {
     console.log(`Servidor Rodando... http://localhost:${port}`);
 });
+
+module.exports = app;
